@@ -19,9 +19,16 @@ public class First extends Application {
         Menu menu3 = new Menu("Help");
 
         MenuBar menuBar = new MenuBar(menu1, menu2, menu3);
+        MenuItem m1 = new MenuItem( "menu item 1");
+        MenuItem m2 = new MenuItem( "menu item 2");
+        MenuItem m3 = new MenuItem( "menu item 3");
+
+        menu1.getItems().add(m1);
+        menu1.getItems().add(m1);
+        menu2.getItems().add(m2);
 
         borderPane1.setTop(menuBar);
-        
+
 
         Scene scene = new Scene(borderPane1, 420, 100);
         stage.setTitle("Ma fenetre!");
