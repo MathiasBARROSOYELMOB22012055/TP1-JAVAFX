@@ -6,5 +6,5 @@ module com.example.tp1javafx {
     opens com.example.tp1javafx to javafx.fxml;
     exports com.example.tp1javafx;
     exports com.example.partie1;
-
+    exports Exercice1 ;
 }

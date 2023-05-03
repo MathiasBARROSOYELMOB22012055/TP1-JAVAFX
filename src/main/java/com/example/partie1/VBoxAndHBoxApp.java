@@ -25,7 +25,7 @@ public class VBoxAndHBoxApp extends Application {
         // Création du conteneur correspondant à la ligne de contrôle haut dessus du tableau
         HBox topControls = new HBox();
         topControls.setAlignment( Pos.BOTTOM_LEFT );
-        Button btnRefresh = new Button("Refresh");
+        Button btnRefresh = new Button("File");
 
         HBox topRightControls = new HBox();
         HBox.setHgrow(topRightControls, Priority.ALWAYS );
