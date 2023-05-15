@@ -7,4 +7,8 @@ module com.example.tp1javafx {
     exports com.example.tp1javafx;
     exports com.example.partie1;
     exports Exercice1 ;
+    exports Exercice5 ;
+    opens Partie3 to javafx.fxml;
+    exports Partie3;
+
 }
